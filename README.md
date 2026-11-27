@@ -5,8 +5,6 @@ Workspace ROS 2 com o simulador [culling_games](https://github.com/rmnicola/cull
 1. **Parte 1:** mapa completo via `/get_map` + caminho mínimo (BFS/A*) + execução
 2. **Parte 2:** exploração cega com sensores (DFS + backtracking), construção do mapa, reset e rota ótima
 
-Documentação para estudar para a prova: [`docs/ESTUDO_PROVA.md`](docs/ESTUDO_PROVA.md)
-
 ---
 
 ## Estrutura
@@ -25,7 +23,6 @@ Documentação para estudar para a prova: [`docs/ESTUDO_PROVA.md`](docs/ESTUDO_P
 │           └── parte2_node.py
 ├── simulator/              # Validação local sem ROS 2 (Windows/Linux)
 ├── tests/
-├── docs/ESTUDO_PROVA.md
 └── README.md
 ```
 
